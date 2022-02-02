@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tela de Login</title>
+        <link href="{{url_for('static', filename='Tela_de_Login.css')}}" rel="stylesheet">
+        <script src="{{url_for('static', filename='login.js')}}"></script>
+        <meta charset="utf-8">
+    </head>
+
+    <body link="blue" id="background_login">
+        <div>
+            <table border="0" align="right" style="margin-right: 5%; margin-top: 3%;">
+                <tr>
+                    <td align="right">
+                        <font size="7" face="verdana" color="#000000">
+                            <center>Sistema de Fichas</center>
+                        </font>
+                    </td>
+                <tr>
+                    <td align="center">
+                        <font size="6" face="verdana" color="#439e0f">
+                            REFEITÓRIO
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><hr color="#439e0f" width="90%"></td>
+                </tr>
+
+            <p style="margin-top: 10%;">
+                <form action="#" method="post" onsubmit="return verificaDados()">
+                        <tr>
+                            <td align="center">
+                            <input type="text" rows="7" class="box_text" name="txt_login" placeholder="Matrícula">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <input type="password" rows="5" class="box_text" name="senha_login" placeholder="Senha"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button type="submit" class="botao botao-1">Entrar</button>
+                            </td>
+                        </tr>
+                </form>
+                <tr>
+                    <td>
+                        <p align="center">
+                            <font face="verdana" align="right" size="3" color="green">
+                                <strong>Não possui cadastro?</strong><br>
+                                <a href="http://127.0.0.1:5000/cadastro">Cadastre-se aqui</a>
+                            </font>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center">
+                            <font face="verdana" align="right" size="3" color="red">
+                                <strong>Usuários ou senhas incorretos</strong><br>
+                            </font>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tela de Login</title>
+        <link href="Tela de Login.css" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body link="blue" id="background_login">
+        
+    <!--Menu de Opções-->
+
+        <nav>
+            <ul class="menu_login">
+                <li><a href="#login">Login</a></li>
+                <li><a href="#cadastro">Cadastre-se</a></li>
+                <li>
+                    <a href="https://ifpi.edu.br"><img src="Imagens/Ifpi logo usuario.png" width="100%" style="margin-top: -8px; margin-bottom: -15px;"></a>
+                </li>
+            </ul>
+        </nav>
+
+    <!--Painel de Login-->
+
+        <div style="margin-bottom: 1000px;">
+            <table border="0" align="right" style="margin-right: 5%; margin-top: 3%;" id="login">
+                <tr>
+                    <td align="right">
+                        <font size="7" face="verdana" color="#000000">
+                            <center>Sistema de Fichas</center>
+                        </font>
+                    </td>
+                <tr>
+                    <td align="center">
+                        <font size="6" face="verdana" color="#439e0f">
+                            REFEITÓRIO
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><hr color="#439e0f" width="90%" style="margin-bottom: 10px; margin-top: 5px;"></td>
+                </tr>
+
+            <p style="margin-top: 10%;">
+                <form action="Usuários.html" method="POST">
+                        <tr>
+                            <td align="center">
+                            <input type="text" rows="7" class="box_text" name="txt_login" placeholder="Matrícula">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <input type="password" rows="5" class="box_text" name="senha_login" placeholder="Senha"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button type="submit" class="botao botao-1">Entrar</button>
+                            </td>
+                        </tr>
+                </form>
+            </table>
+        </div>
+
+    <!--Painel de cadastro-->
+
+            <table border="0" width="30%" height="40%" align="right" class="table_cadastro" id="cadastro">
+                <tr bgcolor="00FF00">
+                    <td style="border-radius: 15px; margin-bottom: 40px;">
+                        <font size="6" face="arial" color="#FFFFFF">
+                            <center><strong>Painel de Cadastro</strong></center>
+                        </font>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <input type="text" id="texto" placeholder="Matrícula">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <input type="text" id="texto" placeholder="Nome de Usuário">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <input type="password" id="texto" name="senha_login" placeholder="Senha">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <input type="password" id="texto" name="senha_login" placeholder="Confirme sua Senha"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="Usuários.html">
+                            <center>
+                                <button type="submit" class="botao botao-1" style="margin-bottom: 2%;margin-top: 5%;">
+                                    <strong>
+                                        Concluído
+                                    </strong>
+                                </button>
+                            </center>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+    </body>
+</html>

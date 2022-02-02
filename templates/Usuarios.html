@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <title>Tela de Usuários</title>
+        <link href="{{url_for('static', filename='Usuarios.css')}}" rel="stylesheet">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body class="background_usuarios">
+        <div class="div1">
+            <nav class="nav" align="center">
+                <ul align="center" style="margin-bottom: 110%;">
+                    <li style="margin-bottom: 10%;">
+                        <a href="#">
+                        <img src="../static/Imagens/Nome_do_usuario.png" width="40%"><br>
+                        Nome do Usuário</a>
+                    </li>
+                    <li style="margin-bottom: 15%;">
+                        <a href="Tela de Cadastro.html">
+                        <img src="../static/Imagens/Adicionar.png" width="40%"><br>
+                        Adicionar</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img src="../static/Imagens/Gerenciar.png" width="40%"><br>
+                        Gerenciar
+                        </a>
+                    </li>
+                </ul>
+
+                <form action="Tela de Login.html">
+                    <button type="submit" class="botao_menu">Sair</button>
+                </form>
+
+            </nav>
+
+            <div class="div2">
+                <table class="table_div2" border=0>
+                    <tr>
+                        <td align="center">Adicionar Perfis</td>
+                        <td align="right" style="max-width: 100%; max-height: 5%;font-size: 5%;" width="10%">
+                            <a href="https://www.ifpi.edu.br">
+                                <img src="../static/Imagens/Ifpi_logo_usuario.png"
+                                style=" margin-right: 1%; margin-top: 4%;"
+                                width="40%"
+                                height="50%">
+                            </a>
+                        </td>
+                    </tr>
+                </table><br>
+                <table border="0" width="60.1%" style="margin-left: 13.5%;">
+                    <tr>
+                        <td align="center" style="font-family: Arial; font-size: 130%; color: #179701;">
+                            <img src="../static/Imagens/usuario.png" width="25%"><br>
+                            Nome do Usuário<img src="../static/Imagens/editar_usuario.png" width="5%" style="cursor: pointer;">
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <div class="div_hierarquia" align="center">Aluno</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <div class="div_hierarquia" align="center">Administrador</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>
